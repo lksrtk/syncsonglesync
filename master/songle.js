@@ -4,7 +4,7 @@ self.onSongleAPIReady =
     var player =
       new Songle.SyncPlayer({
         accessToken: "0000009a-Wh9Gam9", // Please edit your access token
-        secretToken: "CNbaKgz4tdjFketHiJ9f65jRjJLnrH96", // Please edit your secret token
+        secretToken: "", // Please edit your secret token
         mediaElement: "#songle"
       });
 
@@ -12,7 +12,7 @@ self.onSongleAPIReady =
     var player2 =
       new Songle.SyncPlayer({
         accessToken: "0000009a-tctdSbR", // Please edit your access token
-        secretToken: "24AykbbX9dsczfSb5JnzRa5ygeQi4apS", // Please edit your secret token
+        secretToken: "", // Please edit your secret token
         mediaElement: "#songle2"
       });
 
