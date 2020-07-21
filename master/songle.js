@@ -3,16 +3,16 @@ self.onSongleAPIReady =
     //ステージ 0000009a-Wh9Gam9
     var player =
       new Songle.SyncPlayer({
-        accessToken: "0000009a-Wh9Gam9", // Please edit your access token
-        secretToken: "", // Please edit your secret token
+        accessToken: "0000009a-Wh9Gam9", 
+        secretToken: "", 
         mediaElement: "#songle"
       });
 
     //ステージ 0000009a-tctdSbR
     var player2 =
       new Songle.SyncPlayer({
-        accessToken: "0000009a-tctdSbR", // Please edit your access token
-        secretToken: "", // Please edit your secret token
+        accessToken: "0000009a-tctdSbR", 
+        secretToken: "", 
         mediaElement: "#songle2"
       });
 
